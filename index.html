@@ -4,35 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JackBoys 2</title></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="shortcut icon" href="/img/favicon.ico">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="stylesheet" href="/CSS/reset.css">
     <script src="/script.js"></script>
 <body>
-    <header style="height: 10vh;">
+    <header>
         <section id="header_content">
 
-            <button class="bg_button"><a href=""><h2>Creator</h2></a></button>
+            <button id="arrow" class="bg_button">
+                <a href="/index.html"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></a>
+            </button>
 
-            <div id="bg_logo">
-                <img style="width: 100%;" src="/img/favicon.ico" alt="Logo" title="Logo">
-            </div>
+            <button id="favorite" class="bg_button">
+                <a href=""><h2>FAVORITE</h2></a>
+                <i class="fa-solid fa-heart" style="color: #ffffff;"></i>
+            </button>
 
-            <button class="bg_button"><a href=""><h2>CART</h2></a></button>
+            <button id="bg_logo" class="bg_button">
+                <a href="mask_cover.html">
+                    <img style="width: 100%;" src="/img/favicon.ico" alt="Logo" title="Logo">
+                </a>
+            </button>
 
+            <button id="cart" class="bg_button">
+                <a href=""><h2>CART</h2><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
+            </button>
         </section>
-    </header>   
+    </header>  
     <main>
         <!--Album covers | Albums-->
         <section id="cards">
 
             <div class="card">
-                <section class="card_img">
-                    <img src="/img/album_cover_1.png" alt="JACKBOYS 2 DIGITAL ALBUM (MASK COVER)" title="JACKBOYS 2 DIGITAL ALBUM (MASK COVER)">
-                </section>
-                <section class="card_text">
-                    <h3>JACKBOYS 2 DIGITAL ALBUM (MASK COVER)</h3>
-                    <p>$7.99</p>
-                </section>
+                <a href="/HTML/mask_cover.html">
+                    <section class="card_img">
+                        <img src="/img/album_cover_1.png" alt="JACKBOYS 2 DIGITAL ALBUM (MASK COVER)" title="JACKBOYS 2 DIGITAL ALBUM (MASK COVER)">
+                    </section>
+                    <section class="card_text">
+                        <h3>JACKBOYS 2 DIGITAL ALBUM (MASK COVER)</h3>
+                        <p>$7.99</p>
+                    </section>
+                </a>
             </div>
 
             <div class="card">
